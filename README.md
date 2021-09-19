@@ -1,0 +1,1 @@
+https://www.ign.com/articles/battlefield-2042-delayed
