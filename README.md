@@ -1,1 +1,1 @@
-https://www.ign.com/articles/battlefield-2042-delayed
+Link del artículo: https://www.ign.com/articles/battlefield-2042-delayed
