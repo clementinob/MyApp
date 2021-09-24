@@ -1,0 +1,16 @@
+header {
+  background-color: black;
+  color: #e2127A;
+}
+
+
+footer {
+  background-color: black;
+  color: #e2127A;
+  text-decoration: none;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: #e2127A;
+  }
