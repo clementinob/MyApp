@@ -196,7 +196,14 @@ h2 {
   line-height: 1.5em;
 }
 
-
+.releted_Heading {
+  padding: 6px 3px;
+  color: #000;
+  border-top: 1px solid #000;
+  border-right: 1px solid #000;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-transform: uppercase;
+}
 
 
 
