@@ -54,6 +54,14 @@ header {
   color: #e2127A;
 }
 
+.article_Main {
+  margin: 0 auto;
+  max-width: 900px;
+  background-color: #FFF;
+  display: flex;
+  flex-direction: column;
+}
+
 .article_Main-List {
   display: flex;
   flex-direction: row;
@@ -88,26 +96,20 @@ header {
 
 .article_Main-Tab4{
   padding: 6px 3px;
+  color: #083b0d;
   border-top: 1px solid #024208;
   border-right: 1px solid #024208;
 }
 
 .article_Main-TabA {
+  color: #083b0d;
   text-decoration: none;
-  color: #024208;
 }
 
 .article_Main-TabText{
   padding: 6px;
 }
 
-.article_Main {
-  margin: 0 auto;
-  max-width: 900px;
-  background-color: #FFF;
-  display: flex;
-  flex-direction: column;
-}
 
 h1 {
   font-family: 'Source Sans Pro', sans-serif;  letter-spacing: normal;
@@ -137,12 +139,18 @@ h2 {
   align-items: center;
 }
 
+.credits_Divider {
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(139, 137, 137, 0.233);
+}
+
 .credits_Text {
   font-family: Arial, Helvetica, sans-serif;
   color: #6A6A6A;
   font-weight: 300;
   letter-spacing: normal;
   font-size: 0.8em;
+  padding-right: 5px;
 }
 
 .credits_Links {
@@ -163,6 +171,12 @@ h2 {
   margin: 0 .4em;
   vertical-align: middle;
   width: 2px;
+}
+
+.divider_Horizontal{
+  border-bottom: 1px solid #6A6A6A;
+  width: 100%;
+  height: 0.5em;
 }
 
 .social_Media{
@@ -273,9 +287,61 @@ figcaption {
   font-family: Helvetica, sans-serif;
 }
 
+.question_Footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
+.question_Footer > q{
+  align-items: center;
+  justify-content: center;
+}
 
+.button_Panel{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
+.question_Footer-Button{
+  width: 70px;
+  margin: 5px 5px;
+  background-color: #FFF;
+  border: 1px solid #e2127a54;
+  border-radius: 6px;
+  color: #e2127A;
+}
+
+.question_Footer-Button:hover{
+  background-color: #e2127A;
+  color: #FFF;
+  
+}
+
+.article_Info{
+  display: flex;
+  flex-direction: row;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+  padding-left: 10px;
+}
+
+.article_Info-Img{
+  height: 200px;
+  width: 200px;
+  border-radius: 12px;
+}
+
+h3 {
+  font-family: 'Source Sans Pro', sans-serif;  letter-spacing: normal;
+  font-size: 2em;
+}
+
+.article_Info-Summary{
+  width: 300px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
 .footer_Main {
   width: 100%;
