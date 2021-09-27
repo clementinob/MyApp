@@ -4,44 +4,86 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="normalizer.css">
+    <link rel="icon" href="./assets/img/favicon-96x96.0.0.ico" sizes="16x16" type="image/png">
     <title>Battlefield 2042 Delayed Until November - IGN</title>
+    <link rel="stylesheet" href="./normalizer.css">
+    <link rel="stylesheet" href="./styles.css">
+
+    <link href="./assets/icons/fontawesome-free-5.15.4-web/css/fontawesome.css" rel="stylesheet">
+    <link href="./assets/icons/fontawesome-free-5.15.4-web/css/brands.css" rel="stylesheet">
+    <link href="./assets/icons/fontawesome-free-5.15.4-web/css/solid.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <span>
-        <a href=""><img src="https://via.placeholder.com/159x48?text=Logo+IGN" /></a>
-        <a href=""><img src="https://via.placeholder.com/48x48?text=25+Anniversary+Logo" /></a>
-      </span>
-      <nav>
-        <ul>
-          <li><a href="">Store</a></li>
-          <li><a href="">News</a></li>
-          <li><a href="">Videos</a></li>
-          <li><a href="">Reviews</a></li>
-          <li><a href="">Boards</a></li>
-          <li><a href="">Wikis</a></li>
-          <li><a href="">More</a></li>
+    <header class="header_Main">
+      <navbar class="header_Navbar">
+        <img class="header_Logo" src="./assets/img/headerTheVerge.png" />
+        <ul class="header_Menu">
+          <li class="header_Menu-Item">Tech</li>
+          <li class="header_Menu-Item">Reviews</li>
+          <li class="header_Menu-Item">Science</li>
+          <li class="header_Menu-Item">Creators</li>
+          <li class="header_Menu-Item">Entertainment</li>
+          <li class="header_Menu-Item">Video</li>
+          <li class="header_Menu-Item">More</li>
         </ul>
-      </nav>
-      <nav>
-        <a href=""><img src="https://via.placeholder.com/24?text=Search" /></a>
-        <button>Sign In</button>
-      </nav>
+        <ul class="header_Menu">
+          <li>
+            <span class="header_Menu-Icon">
+              <a href="https://www.facebook.com/verge"><i class="fab fa-facebook-f color_Icon"></i></a>
+            </span>
+        </li>
+          <li>
+            <span class="header_Menu-Icon">
+              <a href="https://twitter.com/verge"><i class="fab fa-twitter color_Icon"></i></a>
+            </span>
+          </li>
+          <li>
+            <span class="header_Menu-Icon">
+              <a href="https://www.theverge.com/rss/index.xml"><i class="fas fa-rss color_Icon"></i></a>
+            </span>
+          </li>
+        </ul>
+        <div class="header_Menu-Item"><i class="fas fa-user"></i></div>
+        <div class="header_Menu-Item"><i class="fas fa-search"></i></div>
+      </navbar>
     </header>
-    <article>
-      <a href="https://www.ign.com/games/battlefield-2042">Battlefield 2042</a>
+    <article class="article_Main">
+      <ul class="article_Main-List">
+        <li class="article_Main-Tab1">
+          <span class="article_Main-TabText">Science</span>
+        </li>
+        <li class="article_Main-Tab2">
+          <span class="article_Main-TabText">Space</span>
+        </li>
+        <li class="article_Main-Tab3">
+          <span class="article_Main-TabText">SpaceX</span>
+        </li>
+        <li class="article_Main-Tab4">
+          <span class="article_Main-TabText"><a class="article_Main-TabA" href="https://www.ign.com/games/battlefield-2042">Battlefield 2042</a></span>
+        </li>
+      </ul>
       <h1>Battlefield 2042 Delayed Until November</h1>
       <h2>The next Battlefield game will stay in development a little longer.</h2>
       <section>
-        <p>
-          <img src="https://assets-prd.ignimgs.com/avatars/5d1a5cf4fad1f30b0c431809/YZ4A2119-1588349899392.jpg?fit=crop&width=39&height=39" />
-          By <a href="https://www.ign.com/person/IGNMattk">Matt Kim</a>
-          <svg width="20" height="20"></svg>
-          <span>Updated: 15 Sep 2021 6:41 pm</span>
-          <svg width="20" height="20"></svg>
-          <span>Posted: 15 Sep 2021 5:19 pm</span>
-        </p>
+        <div class="credits">
+          <span class="credits_Text">
+            By <a href="https://www.ign.com/person/IGNMattk">Matt Kim</a>
+          </span>
+          <span class="divider_Vertical"></span>
+          <i class="fas fa-check-circle credits_Text"></i>
+          <span class="credits_Text">Updated: 15 Sep 2021 6:41 pm</span>
+          <i class="fas fa-edit credits_Text"></i>
+          <span class="credits_Text">Posted: 15 Sep 2021 5:19 pm</span>
+        
+        </div>
+          
+          
+          
+        
       </section>
       <div class="divider"></div>
       <p>
@@ -52,7 +94,7 @@
       <p>
         In a
         <a 
-          href='https://ir.ea.com/press-releases/press-release-details/2021/Electronic-Arts-Announces-Battlefield-2042-Is-Now-Set-to-Launch-Worldwide-on-November-19-2021/default.aspx'>
+          href="https://ir.ea.com/press-releases/press-release-details/2021/Electronic-Arts-Announces-Battlefield-2042-Is-Now-Set-to-Launch-Worldwide-on-November-19-2021/default.aspx">
           press release
         </a>
         , DICE GM Oskar Gabrielson cites ongoing complications with the COVID-19 pandemic. “Given the scale
@@ -65,7 +107,6 @@
         Battlefield 2042 is EA and DICE’s first Battlefield game since 2018’s Battlefield 5, and it is the latest game
         to be hit by a <a href="https://www.ign.com/articles/video-game-delays-2021-are-worse-covid">delay in 2021</a>.
       </p>
-      <!-- <video width="320" height="240" src="https://www.ign.com/7e740c99-2000-4de9-9c60-1d4cde0ec346" thumbnail="https://i.ytimg.com/vi/WomAGoEh-Ss/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC_Q8N8CbV4AF9X8fu3vHUUQF7iDQ"></video>-->
       <iframe
         width="560" height="315" src="https://www.youtube.com/embed/WomAGoEh-Ss" title="Battlefield 2042 -
         Desert Storm Gameplay Trailer"
