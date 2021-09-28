@@ -163,6 +163,10 @@ h2 {
   height: auto;
 }
 
+.images_Thumbnail{
+  width: 158px;
+}
+
 .divider_Vertical{
   border-left: 1px solid;
   content: "";
